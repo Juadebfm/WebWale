@@ -1,15 +1,15 @@
 function Navbar() {
   return (
-    <div className="jd_flex">
-      <div className="jd_flex">
+    <div className="fixed top-0 z-10 w-full px-8 py-6 leading-none jd_flex text-body_text bg-bg_color/95">
+      <div className=" jd_flex">
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth={1.5}
+            strokeWidth={1}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="w-8 h-8"
           >
             <path
               strokeLinecap="round"
@@ -18,11 +18,16 @@ function Navbar() {
             />
           </svg>
         </span>
-        <span>WebWale</span>
+        <span
+          style={{ fontFamily: "Abel" }}
+          className="ml-2 italic text-[30px] font-bold"
+        >
+          WebWale
+        </span>
       </div>
-      <div className="jd_flex">
+      <div className="gap-8 jd_flex">
         <div className="btns">
-          <ul className="jd_flex">
+          <ul className="gap-8 jd_flex">
             <li>
               <a href="#">Toolkit</a>
             </li>
@@ -35,7 +40,7 @@ function Navbar() {
           </ul>
         </div>
         <span>|</span>
-        <div className="jd_flex">
+        <div className="gap-4 jd_flex">
           <span>Accounts</span>
           <span>
             <svg

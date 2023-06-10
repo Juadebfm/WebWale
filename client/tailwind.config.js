@@ -3,16 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        grostesk: ["Grotesk", "sans-serif"],
-      },
       colors: {
         bg_color: "#111111",
         main_white: "#f5f5f5",
         text_color: "#AFAFAF",
         main_grey: "#808080",
-        main_orange: "#DD5321",
-        main_gold: "#F1852A",
+        main_orange: "#D8471e",
+        main_gold: "#F48d2c",
       },
       fontSize: {
         heading: "56px",

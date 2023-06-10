@@ -4,7 +4,10 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <div>
+    <div
+      className="bg-bg_color text-main_white"
+      style={{ fontFamily: "Grotesk" }}
+    >
       <div className="">
         <Navbar />
         <Hero />
